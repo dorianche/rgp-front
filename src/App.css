@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "love";
+  src: url("./assets/a_love_of_thunder-webfont.woff2") format("woff2"),
+    url("./assets/a_love_of_thunder-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.title {
+  font-family: "love";
+}
+
+.subtitle {
+  font-family: "EB Garamond";
+  font-size: 2rem;
+}
